@@ -11,7 +11,7 @@ This project automates the geocoding of addresses using ArcGIS, Google Maps, or 
 
 ## Installation
 1. Clone this repository.
-2. Install the necessary Python packages:
+2. Check that you have all the necessary Python packages installed in your environment:
    pandas
    mysql-connector-python
 configparser
@@ -30,3 +30,13 @@ arcgis
 
 4. Configure secure.env with your credentials and API keys.
 5. Modify settings.ini to match your database and geocoding preferences.
+
+## Usage
+To run the project:
+Using bash:
+python main/main.py
+
+## Configuration Files
+log_config.py: Manages application logging and file rotation.
+secure.env: Securely stores sensitive credentials (ensure this file is not tracked by Git).
+settings.ini: Contains user-configurable settings like database connection and geocoding service choice.
