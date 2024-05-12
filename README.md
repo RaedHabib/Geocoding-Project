@@ -38,5 +38,7 @@ python main/main.py
 
 ## Configuration Files
 log_config.py: Manages application logging and file rotation.
+
 secure.env: Securely stores sensitive credentials (ensure this file is not tracked by Git).
+
 settings.ini: Contains user-configurable settings like database connection and geocoding service choice.
