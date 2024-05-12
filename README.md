@@ -27,3 +27,6 @@ google-auth-oauthlib
 google-auth
 googlemaps
 arcgis
+
+4. Configure secure.env with your credentials and API keys.
+5. Modify settings.ini to match your database and geocoding preferences.
