@@ -42,3 +42,6 @@ log_config.py: Manages application logging and file rotation.
 secure.env: Securely stores sensitive credentials (ensure this file is not tracked by Git).
 
 settings.ini: Contains user-configurable settings like database connection and geocoding service choice.
+
+## Contributing
+Contributions to this project are welcome. Please fork the repository and submit a pull request with your suggested changes.
